@@ -11,14 +11,19 @@ typedef struct pitanje {
 }PITANJE;
 
 char izbornik(void);
-void pocetak(void);
 void pravila(void);
 char izlaz(void);
+void pocetak(void);
+void ucitavanjePitanja(void);
+PITANJE sortiranjePolja(PITANJE*, int);
+char ispisivanjePitanja(PITANJE);
 void provjeraJokera(int, int, int);
 void jokerPublika(char, int);
 void jokerPolaPola(PITANJE, int, char);
 void jokerZovi(char, int);
 
 #endif 
+
+
 
 
